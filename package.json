@@ -1,0 +1,25 @@
+{
+  "name": "socket.io-redis-appsample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.7.3",
+    "socket.io-redis": "^4.0.0"
+  },
+  "description": "This a sample node.js application to show how to use Express.js 4, Socket.IO 1.x and socket.io-redis.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Mrugesh Modi <modimrugesh1910@gmail.com>",
+  "license": "MIT"
+}

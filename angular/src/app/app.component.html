@@ -1,0 +1,29 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div>
+  <div>Message for All Users - <br><br>
+    <ul>
+      <div *ngFor="let row of messsageAll">
+        <li>
+          {{row}}
+        </li>
+        <br>
+      </div>
+    </ul>
+  </div>
+</div>
+
+<div>
+  <div>Message for Only For this room - <br><br>
+    <ul>
+      <div *ngFor="let row of messsageRoom">
+        <li>
+          {{row}}
+        </li>
+        <br>
+      </div>
+    </ul>
+  </div>
+</div>
